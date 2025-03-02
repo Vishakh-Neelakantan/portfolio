@@ -316,7 +316,7 @@ import classNames from "classnames";
 import { IconType } from "react-icons";
 import { iconLibrary } from "../icons";
 import { ColorScheme, ColorWeight } from "../types";
-import { Flex, Tooltip } from ".";
+import { Flex } from ".";
 import styles from "./Icon.module.scss";
 
 interface IconProps extends React.ComponentProps<typeof Flex> {
@@ -396,7 +396,7 @@ const Icon = forwardRef<HTMLDivElement, IconProps>(
         {...rest}
       >
         {IconComponent ? <IconComponent /> : <div className={styles.fallbackIcon}>?</div>}
-        {tooltip && isTooltipVisible && <Tooltip label={tooltip} />}
+        {/* {tooltip && isTooltipVisible && <Tooltip label={tooltip} />} */}
       </Flex>
     );
   },
