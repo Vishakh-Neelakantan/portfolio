@@ -140,11 +140,11 @@ const Grid = forwardRef<HTMLDivElement, ComponentProps>(
           "104",
           "128",
           "160",
-        ].includes(value)
+        ]?.includes(value)
       ) {
         return `var(--static-space-${value})`;
       }
-      if (["xs", "s", "m", "l", "xl"].includes(value)) {
+      if (["xs", "s", "m", "l", "xl"]?.includes(value)) {
         return `var(--responsive-${type}-${value})`;
       }
       return undefined;

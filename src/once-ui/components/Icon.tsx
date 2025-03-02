@@ -367,10 +367,10 @@ const Icon = forwardRef<HTMLDivElement, IconProps>(
     }
 
     let colorClass = "color-inherit";
-    if (onBackground && onBackground.includes("-")) {
+    if (onBackground && onBackground?.includes("-")) {
       const [scheme, weight] = onBackground.split("-") as [ColorScheme, ColorWeight];
       colorClass = `${scheme}-on-background-${weight}`;
-    } else if (onSolid && onSolid.includes("-")) {
+    } else if (onSolid && onSolid?.includes("-")) {
       const [scheme, weight] = onSolid.split("-") as [ColorScheme, ColorWeight];
       colorClass = `${scheme}-on-solid-${weight}`;
     }

@@ -150,12 +150,12 @@ const Flex = forwardRef<HTMLDivElement, ComponentProps>(
         return `transparent-border`;
       }
 
-      if (["surface", "page", "overlay"].includes(value)) {
+      if (["surface", "page", "overlay"]?.includes(value)) {
         return `${value}-${type}`;
       }
 
       const parts = value.split("-");
-      if (parts.includes("alpha")) {
+      if (parts?.includes("alpha")) {
         const [scheme, , weight] = parts;
         return `${scheme}-${type}-alpha-${weight}`;
       }
@@ -281,11 +281,11 @@ const Flex = forwardRef<HTMLDivElement, ComponentProps>(
           "104",
           "128",
           "160",
-        ].includes(value)
+        ]?.includes(value)
       ) {
         return `var(--static-space-${value})`;
       }
-      if (["xs", "s", "m", "l", "xl"].includes(value)) {
+      if (["xs", "s", "m", "l", "xl"]?.includes(value)) {
         return `var(--responsive-${type}-${value})`;
       }
       return undefined;
