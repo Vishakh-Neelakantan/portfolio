@@ -2,7 +2,7 @@
 
 import React, { forwardRef, useState, useEffect, ReactNode } from "react";
 import { ElementType } from "./ElementType";
-import { Flex, Icon, Tooltip } from ".";
+import { Flex, Icon } from ".";
 import buttonStyles from "./Button.module.scss";
 import iconStyles from "./IconButton.module.scss";
 import classNames from "classnames";
@@ -72,7 +72,7 @@ const IconButton = forwardRef<HTMLButtonElement, IconButtonProps | AnchorProps>(
         {children ? children : <Icon name={icon} size="s" />}
         {tooltip && isTooltipVisible && (
           <Flex position="absolute" zIndex={1} className={iconStyles[tooltipPosition]}>
-            <Tooltip label={tooltip} />
+            {/* <Tooltip label={tooltip} /> */}
           </Flex>
         )}
       </>
