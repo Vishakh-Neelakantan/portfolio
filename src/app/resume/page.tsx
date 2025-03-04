@@ -19,7 +19,7 @@
 
 //   useEffect(() => {
 //     // Redirecting to Google Drive resume link
-//     window.location.href = "https://drive.google.com/file/d/1urSbLmkUxjlW4XCVdVh5ym5NGcy8jy0I/view?usp=sharing";
+//     window.location.href = 
 //   }, []);
 
 //   return null; // Empty component since it's just a redirect
