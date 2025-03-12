@@ -35,7 +35,7 @@ export default function Resume() {
 
   useEffect(() => {
     // Redirect to Google Drive resume link
-    window.location.href = "https://drive.google.com/file/d/1i0MNaeeBSi0Leckt-wcYvKaWq6TArM0N/view?usp=sharing";
+    window.location.href = "https://drive.google.com/file/d/1lCLBemz9WE081qrft5pxC7OgfAuwV65D/view?usp=sharing";
   }, []);
 
   return null; // ✅ No UI needed since it's just a redirect

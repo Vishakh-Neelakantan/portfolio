@@ -131,7 +131,7 @@ export const Header = () => {
                   <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="book"
-                    href="https://drive.google.com/file/d/1i0MNaeeBSi0Leckt-wcYvKaWq6TArM0N/view?usp=sharing" // Replace with actual Google Drive URL
+                    href="https://drive.google.com/file/d/1lCLBemz9WE081qrft5pxC7OgfAuwV65D/view?usp=sharing" // Replace with actual Google Drive URL
                     label={resume.label}
                     selected={pathname.startsWith("/resume")}
                     external // Opens in a new tab if your ToggleButton supports it
@@ -139,7 +139,7 @@ export const Header = () => {
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="book"
-                    href="https://drive.google.com/file/d/1urSbLmkUxjlW4XCVdVh5ym5NGcy8jy0I/view?usp=sharing" // Replace with actual Google Drive URL
+                    href="https://drive.google.com/file/d/1lCLBemz9WE081qrft5pxC7OgfAuwV65D/view?usp=sharing" // Replace with actual Google Drive URL
                     selected={pathname.startsWith("/resume")}
                     external
                   />
