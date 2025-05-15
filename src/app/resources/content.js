@@ -83,7 +83,10 @@ const about = {
     display: true,
     title: "Introduction",
     description: (
-      // <>I turn concepts into <InlineCode>code</InlineCode>.</>
+      <>
+      {/* I am Vishakh Neelakantan, an aspiring software development engineer.
+      upcoming GET at <InlineCode>HCL</InlineCode>. */}
+    </>
     ),
   },
   work: {
