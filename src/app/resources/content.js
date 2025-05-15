@@ -83,7 +83,10 @@ const about = {
     display: true,
     title: "Introduction",
     description: (
-      <>I turn concepts into <InlineCode>code</InlineCode>.</>
+      // <>I turn concepts into <InlineCode>code</InlineCode>.</>
+      <Text style={{ whiteSpace: "nowrap" }}>
+        I turn concepts into <InlineCode>code</InlineCode>.
+      </Text>
     ),
   },
   work: {
