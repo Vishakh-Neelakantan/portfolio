@@ -58,7 +58,7 @@ const home = {
   headline: <>Software Development Engineer</>,
   subline: (
     <>
-      I am Vishakh Neelakantan, an aspiring <InlineCode>software development engineer</InlineCode>.
+      I am Vishakh Neelakantan, an aspiring <InlineCode>software development engineer</InlineCode>. I turn concepts into <InlineCode>code</InlineCode>.
       {/* upcoming GET at <InlineCode>HCL</InlineCode>. */}
     </>
   ),
@@ -84,9 +84,6 @@ const about = {
     title: "Introduction",
     description: (
       // <>I turn concepts into <InlineCode>code</InlineCode>.</>
-      <Text style={{ whiteSpace: "nowrap" }}>
-        I turn concepts into <InlineCode>code</InlineCode>.
-      </Text>
     ),
   },
   work: {
