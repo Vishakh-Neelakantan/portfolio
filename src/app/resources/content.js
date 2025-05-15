@@ -84,9 +84,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        I am a software developer passionate about cybersecurity, cloud computing, 
-        and AI-driven solutions. Builds secure, scalable applications, focusing on backend, 
-        database management, and frontend technologies like React.js.
+        I turn concepts into <InlineCode>code</InlineCode>.
       </>
     ),
   },
