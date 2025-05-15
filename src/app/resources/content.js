@@ -58,7 +58,8 @@ const home = {
   headline: <>Software Development Engineer</>,
   subline: (
     <>
-      I am Vishakh Neelakantan, an aspiring software development engineer, upcoming GET at <InlineCode>HCL</InlineCode>.
+      I am Vishakh Neelakantan, an aspiring software development engineer.
+      {/* upcoming GET at <InlineCode>HCL</InlineCode>. */}
     </>
   ),
 };
