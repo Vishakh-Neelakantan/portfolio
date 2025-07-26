@@ -85,20 +85,29 @@ const about = {
     title: "Experience",
     experiences: [
       {
+        company: "HCLTech",
+        timeframe: "March 2025 – Present",
+        role: "GET",
+        achievements: [
+          <>
+            Completed <strong>350+ hours</strong> of hands-on training across <strong>IT Hardware, Networking, Linux, Cloud, Agile, Cybersecurity, AI, and DevOps</strong>.
+          </>,
+          <>
+            Built foundational skills in <strong>Database management</strong>, <strong>Linux systems</strong>, and <strong>cloud-based deployments</strong> through virtual labs and assessments.
+          </>,
+        ],
+      },
+      {
         company: "Ministry of Electronics and Information Technology (MeitY)",
         timeframe: "June 2024 - August 2024",
         role: "Intern",
         achievements: [
           <>
-            Conducted research on cloud sovereignty, exploring technical frameworks for implementing it within India.
+            Worked on developing an <strong>AI-driven tool</strong> to enhance user interaction and response accuracy under the <strong>STPI Emerging Tech</strong> initiatives.
           </>,
           <>
-            Contributed to mini projects at Software Technology Parks of India (STPI), focused on emerging technologies.
-
+            Authored a <strong>100-point technical report</strong> on <strong>cloud sovereignty</strong> and India-centric infrastructure strategies, used for internal reference.
           </>,
-        ],
-        images: [
-          
         ],
       },
     ],
