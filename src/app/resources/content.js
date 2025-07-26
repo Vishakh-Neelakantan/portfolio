@@ -15,16 +15,7 @@ const person = {
   languages: ["English", "Hindi", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
-// const newsletter = {
-//   display: true,
-//   title: <>Subscribe to {person.firstName}'s Newsletter</>,
-//   description: (
-//     <>
-//       I occasionally write about design, technology, and share thoughts on the intersection of
-//       creativity and engineering.
-//     </>
-//   ),
-// };
+
 
 const social = [
   // Links are automatically displayed.
@@ -126,10 +117,6 @@ const about = {
         timeframe: "2021",
         description: 
         <>PCM with Geospatial Technology</>
-        // <>
-        // XII<sup>th</sup> - 2021 <br />
-        // X<sup>th</sup> - 2019
-        // </>
       },
     ],
   },
@@ -146,270 +133,16 @@ const about = {
 
   
 
-  // technical: {
-  //   display: true, // set to false to hide this section
-  //   title: "Technical skills",
-  //   skills: [
-  //     {
-  //       title: "Figma",
-  //       description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-  //       // optional: leave the array empty if you don't want to display images
-  //       images: [
-  //         {
-  //           src: "/images/projects/project-01/cover-02.jpg",
-  //           alt: "Project image",
-  //           width: 16,
-  //           height: 9,
-  //         },
-  //         {
-  //           src: "/images/projects/project-01/cover-03.jpg",
-  //           alt: "Project image",
-  //           width: 16,
-  //           height: 9,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "Next.js",
-  //       description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-  //       // optional: leave the array empty if you don't want to display images
-  //       images: [
-  //         {
-  //           src: "/images/projects/project-01/cover-04.jpg",
-  //           alt: "Project image",
-  //           width: 16,
-  //           height: 9,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       title: "C++",
-  //       description: <>Proficient in C++ with strong problem-solving skills and algorithmic thinking.</>,
-  //       images: [],
-  //     },
-  //     {
-  //       title: "Python",
-  //       description: <>Experienced in Python for scripting, data processing, and backend development.</>,
-  //       images: [],
-  //     },
-  //     {
-  //       title: "JavaScript",
-  //       description: <>Skilled in JavaScript for frontend and backend development, including React.js and Node.js.</>,
-  //       images: [],
-  //     },
-  //     {
-  //       title: "Firebase",
-  //       description: <>Hands-on experience with Firebase for authentication, database management, and hosting.</>,
-  //       images: [],
-  //     },
-  //     {
-  //       title: "MySQL",
-  //       description: <>Experience in designing and managing relational databases using MySQL.</>,
-  //       images: [],
-  //     },
-  //     {
-  //       title: "Git & GitHub",
-  //       description: <>Proficient in version control using Git and GitHub for collaborative development.</>,
-  //       images: [],
-  //     },
-  //   ],
-  // },
+  
 };
 
-// export const technical = {
-//   display: true, // set to false to hide this section
-//     title: "Technical skills",
-//     skills: [
-//       {
-//         title: "Figma",
-//         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-//         // optional: leave the array empty if you don't want to display images
-//         images: [
-//           {
-//             src: "/images/projects/project-01/cover-02.jpg",
-//             alt: "Project image",
-//             width: 16,
-//             height: 9,
-//           },
-//           {
-//             src: "/images/projects/project-01/cover-03.jpg",
-//             alt: "Project image",
-//             width: 16,
-//             height: 9,
-//           },
-//         ],
-//       },
-//       {
-//         title: "Next.js",
-//         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-//         // optional: leave the array empty if you don't want to display images
-//         images: [
-//           {
-//             src: "/images/projects/project-01/cover-04.jpg",
-//             alt: "Project image",
-//             width: 16,
-//             height: 9,
-//           },
-//         ],
-//       },
-//       {
-//         title: "C++",
-//         description: <>Proficient in C++ with strong problem-solving skills and algorithmic thinking.</>,
-//         images: [],
-//       },
-//       {
-//         title: "Python",
-//         description: <>Experienced in Python for scripting, data processing, and backend development.</>,
-//         images: [],
-//       },
-//       {
-//         title: "JavaScript",
-//         description: <>Skilled in JavaScript for frontend and backend development, including React.js and Node.js.</>,
-//         images: [],
-//       },
-//       {
-//         title: "Firebase",
-//         description: <>Hands-on experience with Firebase for authentication, database management, and hosting.</>,
-//         images: [],
-//       },
-//       {
-//         title: "MySQL",
-//         description: <>Experience in designing and managing relational databases using MySQL.</>,
-//         images: [],
-//       },
-//       {
-//         title: "Git & GitHub",
-//         description: <>Proficient in version control using Git and GitHub for collaborative development.</>,
-//         images: [],
-//       },
-//     ],
-//   // title: "Technical Skills",
-//   // skills: [
-//   //   {
-//   //     title: "Figma",
-//   //     description: "Able to prototype in Figma with Once UI at high speed.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "Next.js",
-//   //     description: "Building modern apps with Next.js + Supabase.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "C++",
-//   //     description: "Proficient in C++ with strong problem-solving skills.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "Python",
-//   //     description: "Experienced in Python for scripting, data processing, and backend development.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "JavaScript",
-//   //     description: "Skilled in JavaScript for frontend and backend development, including React.js and Node.js.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "Firebase",
-//   //     description: "Hands-on experience with Firebase for authentication, database management, and hosting.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "MySQL",
-//   //     description: "Experience in designing and managing relational databases using MySQL.",
-//   //     images: [],
-//   //   },
-//   //   {
-//   //     title: "Git & GitHub",
-//   //     description: "Proficient in version control using Git and GitHub for collaborative development.",
-//   //     images: [],
-//   //   },
-//   // ],
-// };
 
-
-// const blog = {
-//   label: "Technical skills",
-//   title: "Writing about design and tech...",
-//   description: `Read what ${person.name} has been up to recently`,
-//   // Create new blog posts by adding a new .mdx file to app/blog/posts
-//   // All posts will be listed on the /blog route
-//   // technical: {
-//   //   display: true, // set to false to hide this section
-//   //   title: "Technical skills",
-//   //   skills: [
-//   //     {
-//   //       title: "Figma",
-//   //       description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-//   //       // optional: leave the array empty if you don't want to display images
-//   //       images: [
-//   //         {
-//   //           src: "/images/projects/project-01/cover-02.jpg",
-//   //           alt: "Project image",
-//   //           width: 16,
-//   //           height: 9,
-//   //         },
-//   //         {
-//   //           src: "/images/projects/project-01/cover-03.jpg",
-//   //           alt: "Project image",
-//   //           width: 16,
-//   //           height: 9,
-//   //         },
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "Next.js",
-//   //       description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-//   //       // optional: leave the array empty if you don't want to display images
-//   //       images: [
-//   //         {
-//   //           src: "/images/projects/project-01/cover-04.jpg",
-//   //           alt: "Project image",
-//   //           width: 16,
-//   //           height: 9,
-//   //         },
-//   //       ],
-//   //     },
-//   //     {
-//   //       title: "C++",
-//   //       description: <>Proficient in C++ with strong problem-solving skills and algorithmic thinking.</>,
-//   //       images: [],
-//   //     },
-//   //     {
-//   //       title: "Python",
-//   //       description: <>Experienced in Python for scripting, data processing, and backend development.</>,
-//   //       images: [],
-//   //     },
-//   //     {
-//   //       title: "JavaScript",
-//   //       description: <>Skilled in JavaScript for frontend and backend development, including React.js and Node.js.</>,
-//   //       images: [],
-//   //     },
-//   //     {
-//   //       title: "Firebase",
-//   //       description: <>Hands-on experience with Firebase for authentication, database management, and hosting.</>,
-//   //       images: [],
-//   //     },
-//   //     {
-//   //       title: "MySQL",
-//   //       description: <>Experience in designing and managing relational databases using MySQL.</>,
-//   //       images: [],
-//   //     },
-//   //     {
-//   //       title: "Git & GitHub",
-//   //       description: <>Proficient in version control using Git and GitHub for collaborative development.</>,
-//   //       images: [],
-//   //     },
-//   //   ],
-//   // },
-// };
 
 const resume = {
   label: "Resume",  // New tab in navigation
   title: "My Resume",
   description: `View and download ${person.name}'s resume.`,
-  link: "https://drive.google.com/your-resume-link",  // Replace with your actual Google Drive link
+  link: "https://drive.google.com/drive/folders/1vNzdpZThnSMBqjWKHqgNwHzDMDNy8ZHl?usp=sharing",  // Replace with your actual Google Drive link
 };
 
 
@@ -421,84 +154,7 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
-// const gallery = {
-//   label: "Gallery",
-//   title: "My photo gallery",
-//   description: `A photo collection by ${person.name}`,
-//   // Images from https://pexels.com
-//   images: [
-//     {
-//       src: "/images/gallery/img-01.jpg",
-//       alt: "image",
-//       orientation: "vertical",
-//     },
-//     {
-//       src: "/images/gallery/img-02.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-03.jpg",
-//       alt: "image",
-//       orientation: "vertical",
-//     },
-//     {
-//       src: "/images/gallery/img-04.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-05.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-06.jpg",
-//       alt: "image",
-//       orientation: "vertical",
-//     },
-//     {
-//       src: "/images/gallery/img-07.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-08.jpg",
-//       alt: "image",
-//       orientation: "vertical",
-//     },
-//     {
-//       src: "/images/gallery/img-09.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-10.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-11.jpg",
-//       alt: "image",
-//       orientation: "vertical",
-//     },
-//     {
-//       src: "/images/gallery/img-12.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-13.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//     {
-//       src: "/images/gallery/img-14.jpg",
-//       alt: "image",
-//       orientation: "horizontal",
-//     },
-//   ],
-// };
+
 
 const contact = {
   label: "Contact",

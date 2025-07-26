@@ -109,29 +109,13 @@ export const Header = () => {
                   />
                 </>
               )}
-              {/* {routes["/blog"] && (
-                <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="book"
-                    href="/blog"
-                    label={blog.label}
-                    selected={pathname.startsWith("/blog")}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="book"
-                    href="/blog"
-                    selected={pathname.startsWith("/blog")}
-                  />
-                </>
-              )} */}
+              
               {routes["/resume"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="book"
-                    href="https://drive.google.com/file/d/1lCLBemz9WE081qrft5pxC7OgfAuwV65D/view?usp=sharing" // Replace with actual Google Drive URL
+                    href="https://drive.google.com/drive/folders/1vNzdpZThnSMBqjWKHqgNwHzDMDNy8ZHl?usp=sharing" // Replace with actual Google Drive URL
                     label={resume.label}
                     selected={pathname.startsWith("/resume")}
                     external // Opens in a new tab if your ToggleButton supports it
@@ -139,7 +123,7 @@ export const Header = () => {
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="book"
-                    href="https://drive.google.com/file/d/1lCLBemz9WE081qrft5pxC7OgfAuwV65D/view?usp=sharing" // Replace with actual Google Drive URL
+                    href="https://drive.google.com/drive/folders/1vNzdpZThnSMBqjWKHqgNwHzDMDNy8ZHl?usp=sharing" // Replace with actual Google Drive URL
                     selected={pathname.startsWith("/resume")}
                     external
                   />
@@ -163,25 +147,6 @@ export const Header = () => {
                   />
                 </>
               )}
-
-
-              {/* {routes["/gallery"] && (
-                <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="gallery"
-                    href="/gallery"
-                    label={gallery.label}
-                    selected={pathname.startsWith("/gallery")}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="gallery"
-                    href="/gallery"
-                    selected={pathname.startsWith("/gallery")}
-                  />
-                </>
-              )} */}
             </Flex>
           </Flex>
         </Flex>
